@@ -1,0 +1,23 @@
+name: Validate index.toml
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - index.toml
+
+jobs:
+  validate:
+    name: Validate registry index
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+
+      - name: Fetch base index.toml from main
+        run: |
+          git fetch origin main
+          git show origin/main:index.toml > /tmp/index-base.toml 2>/dev/null || touch /tmp/index-base.toml
+
+      - name: Run validation
+        run: bash scripts/validate-index.sh index.toml /tmp/index-base.toml
