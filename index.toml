@@ -78,7 +78,7 @@ source   = "https://github.com/meowshed/adaptive-keyboard-layouts/releases/downl
 
 [modules.zjstatus-widgets]
 repo     = "meowshed/zjstatus-widgets"
-versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.2.0", "0.2.1", "0.2.2", "0.2.3"]
+versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.2.0", "0.2.1", "0.2.2", "0.2.3", "0.2.4"]
 source   = "https://github.com/meowshed/zjstatus-widgets/releases/download/{version}/zjstatus-widgets-{version_no_v}.tar.gz"
 
 [modules.zjstatus-widgets.integrity]
@@ -92,6 +92,7 @@ source   = "https://github.com/meowshed/zjstatus-widgets/releases/download/{vers
 "0.2.1" = "sha384-X/2XnprBSxBkSvmFtxfzV+0hTUB5R2EMwB6bjVThW6kvsG08kIUr0jr3MGecVr5X"
 "0.2.2" = "sha384-ryOxhx/JX8kEGUslNBnMyMDn+5Nbb2YFD76qU+tD1RXG4M8xTpj3ub+EuDvc/Oi0"
 "0.2.3" = "sha384-XLH/6BGVkLd44Vo6KI/P3Tf3DlRGqVFRWJ8xnSIjms4ct1vj0C35XzdiZNA6czIe"
+"0.2.4" = "sha384-20BujGRvWrLLtmMM4Vwf9nr8nWkEtmWugL0/N1U0BLMsd6mSkIkracv+1NWdUzeb"
 
 [modules.meowvim-keyboard-layouts]
 repo     = "meowshed/meowvim-keyboard-layouts"
