@@ -34,7 +34,7 @@ source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotm
 "0.2.9" = "sha384-ILcdyXBbUXy5+koQB0GgX8pcryL8eE/nGRpWb4NG9qeX8eeb0IpeLL8HIQme97zh"
 "0.2.10" = "sha384-OEauhB5k7RGIUoc3074P30a3tUqhBv991YA/XiqFwzi7jY0ZGH41/5HIxTlHO0ZX"
 "0.2.11" = "sha384-ZtwRAUAVNWzkiiCHcf7ugV9pSv5nc9xgODSQMXrdqMbf2w8RCK71kApCnZKG+o25"
-"0.2.12" = "sha384-LF3rfDhNK8ZunoFT3/yy797MKd09/ZfZRZ6MLZ0ncbsndU+2aZhZ4w5iEQyWbJ2k"
+"0.2.12" = "sha384-30Y3r9Z1QZxJklTB0UVssPbMcvADjvA5ogyUAJRG5aqtDg5vWpxA1v1I1lEBsQk8"
 
 [modules.stdlib]
 repo     = "meowshed/meowctl-stdlib"
