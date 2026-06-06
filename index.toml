@@ -12,7 +12,7 @@
 #               download. Entries may be omitted for older versions (the loader
 #               falls back to compute-then-store in the lock file).
 
-compat = 2
+compat = 1
 
 [modules.dotmeow]
 repo     = "meowshed/dotmeow"
