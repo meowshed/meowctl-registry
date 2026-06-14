@@ -68,7 +68,7 @@ source   = "https://github.com/meowshed/meowctl-stdlib/releases/download/{versio
 
 [modules.adaptive-keyboard-layouts]
 repo     = "meowshed/adaptive-keyboard-layouts"
-versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.2.0", "0.2.1", "0.2.2"]
+versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.2.0", "0.2.1", "0.2.2", "0.2.3"]
 source   = "https://github.com/meowshed/adaptive-keyboard-layouts/releases/download/{version}/adaptive-keyboard-layouts-{version_no_v}.tar.gz"
 
 [modules.adaptive-keyboard-layouts.integrity]
@@ -80,10 +80,11 @@ source   = "https://github.com/meowshed/adaptive-keyboard-layouts/releases/downl
 "0.2.0" = "sha384-Ck+aSdOI+cUzQkK4u6+4DIM0wP6oDRMwmqzZBfO3XmWnaWd+gUt1j+18hVNxEPWk"
 "0.2.1" = "sha384-HgGHPhOTtGr+Lk4wQ8q+BJorcKeus+FDyeO/UgWIlIcuqc/oqoLOb1dQrRiGBI2B"
 "0.2.2" = "sha384-xQQyDi9C3OE/KoPEhL9hsYGR4ZG7UrcwXDCXukrn541Uuh5CfUNTXx/YzTu1Vpu2"
+"0.2.3" = "sha384-dsLSH6iTVeEAcsQmH12T5FwJFAZrMb6k6iTLjAb+D7yHoYwMeWNIdIJO9HNnkELd"
 
 [modules.zjstatus-widgets]
 repo     = "meowshed/zjstatus-widgets"
-versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.2.0", "0.2.1", "0.2.2", "0.2.3", "0.2.4", "0.2.5", "0.2.6"]
+versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.2.0", "0.2.1", "0.2.2", "0.2.3", "0.2.4", "0.2.5", "0.2.6", "0.2.7"]
 source   = "https://github.com/meowshed/zjstatus-widgets/releases/download/{version}/zjstatus-widgets-{version_no_v}.tar.gz"
 
 [modules.zjstatus-widgets.integrity]
@@ -100,10 +101,11 @@ source   = "https://github.com/meowshed/zjstatus-widgets/releases/download/{vers
 "0.2.4" = "sha384-20BujGRvWrLLtmMM4Vwf9nr8nWkEtmWugL0/N1U0BLMsd6mSkIkracv+1NWdUzeb"
 "0.2.5" = "sha384-cbpnYSh0C4ehlU4Cu7BGBtOEwsSxQE9Ir2og24d0vn4sH0asy8s8nEuydMpMqg3t"
 "0.2.6" = "sha384-D0EYEWqDt7LTjgkOGKDaA4gocTr6fYS6MVHUG3rYU5FioSWqxEy0VHPUQLRkk+V9"
+"0.2.7" = "sha384-arpanrOth46KwoBEndhKJWBDxXtTE/mspDpv3jICYyDlmu5//sU1eBJX1UGdFL/1"
 
 [modules.meowvim-keyboard-layouts]
 repo     = "meowshed/meowvim-keyboard-layouts"
-versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.2.0", "0.2.1", "0.2.2"]
+versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.2.0", "0.2.1", "0.2.2", "0.2.3"]
 source   = "https://github.com/meowshed/meowvim-keyboard-layouts/releases/download/{version}/meowvim-keyboard-layouts-{version_no_v}.tar.gz"
 
 [modules.meowvim-keyboard-layouts.integrity]
@@ -114,3 +116,4 @@ source   = "https://github.com/meowshed/meowvim-keyboard-layouts/releases/downlo
 "0.2.0" = "sha384-NexJnvgX4/KoeJqxDM1M6fp4IGFSsIC0h+4A7hZ1WBjpwRPDsNAeEzM7N6Fx5dKs"
 "0.2.1" = "sha384-RynYj7F/mO4NrdzBFXisNAasT71+gEqh6x22VudccMpVSIPxINonnwxeYa+6l55U"
 "0.2.2" = "sha384-ySVCWSn5zC2MmUkopt0HsTfNJY4aawimux8H4Co0y7og/q7EIWWzTthsQJrpAcvH"
+"0.2.3" = "sha384-2nTHLyBBOoOIyo1K5Ixnfl0mqbonsUPbQgy6YzpwOwHeAZWgleVVfD/nCgzhMrth"
