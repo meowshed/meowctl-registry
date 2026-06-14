@@ -16,7 +16,7 @@ compat = 1
 
 [modules.dotmeow]
 repo     = "meowshed/dotmeow"
-versions = ["0.1.0", "0.1.1", "0.1.2", "0.2.0", "0.2.1", "0.2.3", "0.2.4", "0.2.5", "0.2.6", "0.2.7", "0.2.8", "0.2.9", "0.2.10", "0.2.11", "0.2.12", "0.2.13"]
+versions = ["0.1.0", "0.1.1", "0.1.2", "0.2.0", "0.2.1", "0.2.3", "0.2.4", "0.2.5", "0.2.6", "0.2.7", "0.2.8", "0.2.9", "0.2.10", "0.2.11", "0.2.12", "0.2.13", "0.2.14"]
 source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotmeow-{version_no_v}.tar.gz"
 
 [modules.dotmeow.integrity]
@@ -36,10 +36,11 @@ source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotm
 "0.2.11" = "sha384-ZtwRAUAVNWzkiiCHcf7ugV9pSv5nc9xgODSQMXrdqMbf2w8RCK71kApCnZKG+o25"
 "0.2.12" = "sha384-30Y3r9Z1QZxJklTB0UVssPbMcvADjvA5ogyUAJRG5aqtDg5vWpxA1v1I1lEBsQk8"
 "0.2.13" = "sha384-SxNroqwyiDNHEY1N8fIQb5/BppLVzj782W60LwH1aj0EYTsMGdKoY/g7bnYGgoZU"
+"0.2.14" = "sha384-tsdkmoKkD/MpF8jP4g3+KkT1wwDApvg8/mzMoRuDasuYg1m0lCQTF85gPgineMtY"
 
 [modules.stdlib]
 repo     = "meowshed/meowctl-stdlib"
-versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.1.6", "0.1.7", "0.1.8", "0.1.9", "0.1.10", "0.1.11", "0.1.12", "0.1.13", "0.1.14", "0.1.15", "0.2.0", "0.2.1", "0.2.3", "0.2.4"]
+versions = ["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.1.6", "0.1.7", "0.1.8", "0.1.9", "0.1.10", "0.1.11", "0.1.12", "0.1.13", "0.1.14", "0.1.15", "0.2.0", "0.2.1", "0.2.3", "0.2.4", "0.2.5"]
 source   = "https://github.com/meowshed/meowctl-stdlib/releases/download/{version}/meowctl-stdlib-{version_no_v}.tar.gz"
 
 [modules.stdlib.integrity]
@@ -63,6 +64,7 @@ source   = "https://github.com/meowshed/meowctl-stdlib/releases/download/{versio
 "0.2.1" = "sha384-Cg2vkMQMWuNIk+QV1VoZzCpxdKXH5Oqk51Iq/Bws6yGQzWcgS2g1ZdUDZzXq9MaV"
 "0.2.3" = "sha384-C/JVNttDK8CJdpIpBeRcGnxr7SF4flS/geV9hh2sL8Ze1+CkGQZCbCQqp22YmQ6h"
 "0.2.4" = "sha384-nuZ67XmulaKRKBGYEnd0jjlU8lEBiRCVydgjcFrlmJHRZZ6Wo7dmrNZ8dlQKMzXU"
+"0.2.5" = "sha384-qdRDEUyqRp8c/SfL+KBQumFl9M3z5zsihy16HL99z4vIKCbbFkxip9swA7pVlrqX"
 
 [modules.adaptive-keyboard-layouts]
 repo     = "meowshed/adaptive-keyboard-layouts"
