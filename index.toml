@@ -16,11 +16,12 @@ compat = 1
 
 [modules.dotmeow]
 repo     = "meowshed/dotmeow"
-versions = ["0.2.15"]
+versions = ["0.2.15", "0.2.16"]
 source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotmeow-{version_no_v}.tar.gz"
 
 [modules.dotmeow.integrity]
 "0.2.15" = "sha384-ew/Xo/QUDjPGgDUOHxPbiDa6brekr2J5WUOtSoJjOx8wVfblstgoHdVYSfIHcUrv"
+"0.2.16" = "sha384-eg8Jxu6flwy+h+5mzybd08auXCc3XVR/0W1kdp1oc/ElcR1K7YQejjqY+DPHRZiW"
 
 [modules.stdlib]
 repo     = "meowshed/meowctl-stdlib"
