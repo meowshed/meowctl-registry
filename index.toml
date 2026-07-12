@@ -38,13 +38,14 @@ source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotm
 
 [modules.stdlib]
 repo     = "meowshed/meowctl-stdlib"
-versions = ["0.2.5", "0.2.6", "0.2.7"]
+versions = ["0.2.5", "0.2.6", "0.2.7", "0.2.8"]
 source   = "https://github.com/meowshed/meowctl-stdlib/releases/download/{version}/meowctl-stdlib-{version_no_v}.tar.gz"
 
 [modules.stdlib.integrity]
 "0.2.5" = "sha384-qdRDEUyqRp8c/SfL+KBQumFl9M3z5zsihy16HL99z4vIKCbbFkxip9swA7pVlrqX"
 "0.2.6" = "sha384-E3JKOCNOxJ+mo+Be1F9XVjIUKXAm3clna/TGppnRDgwCb8JG1sex8kPuOQG0Ujgu"
 "0.2.7" = "sha384-coZYf+e/NZvQQJ/821YzgcRHSeOKU/S6fcSW9jr/UbJBLpjY27Gj34/v98VxnBia"
+"0.2.8" = "sha384-hpYHfb0twfBzSzCqwrzyttIcRlhVx6JcNUqscv6imMQVrXMM3BupN8Ed/5EnaK41"
 
 [modules.adaptive-keyboard-layouts]
 repo     = "meowshed/adaptive-keyboard-layouts"
