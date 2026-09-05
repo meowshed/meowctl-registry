@@ -165,8 +165,18 @@ URL_COUNT=0
 for MOD in "${!MOD_SOURCE[@]}"; do
     SOURCE="${MOD_SOURCE[$MOD]}"
     for VER in ${MOD_VERSIONS[$MOD]:-}; do
+        # Mirror meowctl's buildSourceURL: {version} always carries a leading
+        # "v", {version_no_v} never does. Versions in index.toml are stored
+        # bare, so the tag form has to be reconstructed here.
+        if [ "${VER#v}" = "$VER" ]; then
+            VER_TAG="v$VER"
+        else
+            VER_TAG="$VER"
+        fi
+        VER_NO_V="${VER#v}"
         URL="${SOURCE//\{name\}/$MOD}"
-        URL="${URL//\{version\}/$VER}"
+        URL="${URL//\{version\}/$VER_TAG}"
+        URL="${URL//\{version_no_v\}/$VER_NO_V}"
         HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --head --max-time 15 "$URL" || echo "000")
         if [ "$HTTP_STATUS" = "200" ] || [ "$HTTP_STATUS" = "302" ] || [ "$HTTP_STATUS" = "301" ]; then
             pass "$MOD@$VER → $HTTP_STATUS"
