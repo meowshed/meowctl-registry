@@ -5,19 +5,39 @@ on:
     branches: [main]
     paths:
       - index.toml
+  push:
+    branches: [main]
+    paths:
+      - index.toml
 
 jobs:
   validate:
     name: Validate registry index
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout PR
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # The no-overwrite check needs the pre-push commit on push events,
+          # which a shallow clone does not contain.
+          fetch-depth: 0
 
-      - name: Fetch base index.toml from main
+      - name: Resolve base index.toml
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
         run: |
-          git fetch origin main
-          git show origin/main:index.toml > /tmp/index-base.toml 2>/dev/null || touch /tmp/index-base.toml
+          if [ "$EVENT_NAME" = "push" ]; then
+            # On push, origin/main already points at the commit being validated,
+            # so compare against the state main had before this push.
+            BASE_REF="$BEFORE_SHA"
+          else
+            git fetch origin main
+            BASE_REF="origin/main"
+          fi
+          # Missing base (branch creation, force push, first commit) leaves the
+          # base empty, which makes validate-index.sh skip the no-overwrite check.
+          git show "$BASE_REF:index.toml" > /tmp/index-base.toml 2>/dev/null || touch /tmp/index-base.toml
 
       - name: Run validation
         run: bash scripts/validate-index.sh index.toml /tmp/index-base.toml
