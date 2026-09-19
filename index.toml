@@ -16,19 +16,19 @@ compat = 1
 
 [modules.dotmeow]
 repo     = "meowshed/dotmeow"
-versions = ["0.3.25"]
+versions = ["0.3.26"]
 source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotmeow-{version_no_v}.tar.gz"
 
 [modules.dotmeow.integrity]
-"0.3.25" = "sha384-PK8TtriWbqUtQHZUGkpr2uC0Aml+IJLoMRE7wdMAcJ4B7W4xSoTnqBSe0oN431w3"
+"0.3.26" = "sha384-l6oYcXk2fWSEl2VEs+GSp2JH53MVG72fxt294HBXgqqQLrHF6uCxcHB01ehgoerZ"
 
 [modules.stdlib]
 repo     = "meowshed/meowctl-stdlib"
-versions = ["0.2.15"]
+versions = ["0.2.16"]
 source   = "https://github.com/meowshed/meowctl-stdlib/releases/download/{version}/meowctl-stdlib-{version_no_v}.tar.gz"
 
 [modules.stdlib.integrity]
-"0.2.15" = "sha384-l7Gs0jlZ+WASo8RDymFSTqYrl+lpzi8MgeV3IiGze3bio4+OkMlslxyJ1J93uyDv"
+"0.2.16" = "sha384-2C70C7TttudLLEUPgp99pUv3v75gqzFOtDa4Lvl4wXkYYIBq32cGn1Oe1G3ecXxE"
 
 [modules.adaptive-keyboard-layouts]
 repo     = "meowshed/adaptive-keyboard-layouts"
