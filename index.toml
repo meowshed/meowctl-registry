@@ -16,7 +16,7 @@ compat = 1
 
 [modules.dotmeow]
 repo     = "meowshed/dotmeow"
-versions = ["0.3.27", "0.3.28", "0.3.29", "0.3.30", "0.3.31", "0.3.32", "0.3.33"]
+versions = ["0.3.27", "0.3.28", "0.3.29", "0.3.30", "0.3.31", "0.3.32", "0.3.33", "0.3.34"]
 source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotmeow-{version_no_v}.tar.gz"
 
 [modules.dotmeow.integrity]
@@ -27,6 +27,7 @@ source   = "https://github.com/meowshed/dotmeow/releases/download/{version}/dotm
 "0.3.31" = "sha384-LXmFCIFmQliQMxPs3tHaWBI3Jg/FngQ5+aXKKXNcYvUvR+eNBfjPfSchj2JuFfIQ"
 "0.3.32" = "sha384-pBlyUTtn1qYDukjmWvDGNXimFjMT0mXNgeSqmQ+stgFH2P7y05Fuu4bha5tMwCB1"
 "0.3.33" = "sha384-vA/xXB+wUDRsxYMbmDzSAOWM82grZ9KyAkwP6BzKEuDUU9kOuax9Fh5C+s7WaXf/"
+"0.3.34" = "sha384-km4NfGvAyqF+xkqxCCug6fEqZr6Zb6BUkQn3zkeHQwlEs+Wu+WwmqYlX5np9nLtO"
 
 [modules.stdlib]
 repo     = "meowshed/meowctl-stdlib"
